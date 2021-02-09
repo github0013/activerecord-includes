@@ -1,0 +1,6 @@
+[submodule "rails-6.1.x"]
+	path = rails-6.1.x
+	url = ./rails-6.1.x
+[submodule "rails-5.2.x"]
+	path = rails-5.2.x
+	url = ./rails-5.2.x

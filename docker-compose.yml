@@ -1,0 +1,17 @@
+version: "3.7"
+services:
+  rails-5.2.x:
+    build:
+      context: ./rails-5.2.x
+    volumes:
+      - ./rails-5.2.x:/app
+    working_dir: /app
+    command: ash -c "bundle exec rspec"
+
+  rails-6.1.x:
+    build:
+      context: ./rails-6.1.x
+    volumes:
+      - ./rails-6.1.x:/app
+    working_dir: /app
+    command: ash -c "bundle exec rspec"
