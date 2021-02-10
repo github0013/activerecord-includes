@@ -11,8 +11,8 @@ Checked with the latest rails versions
 
 ## The Problem
 
-- c_type_xs is scoped has_many in A through Bs (source Cs)
-- ds is distinct has_many in A through Cs
+- `c_type_xs` is a scoped has_many in A, through Bs (source Cs)
+- `ds` is a distinct has_many in A, through Cs
 
 Under this condition, if you switch around the orders in includes, you get different results.
 
